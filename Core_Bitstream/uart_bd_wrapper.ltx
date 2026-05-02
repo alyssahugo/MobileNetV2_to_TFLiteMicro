@@ -1,0 +1,1219 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "25000000"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "uart_bd_i/ila_2",
+                        "spec": "labtools_ila_v6",
+                        "ipName": "ila",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "5530B1543D155B7FA05177608A153975",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_state",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_state[7]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_state[6]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_state[5]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_state[4]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_state[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_state[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_state[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_state[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_done",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_error_flag",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[31]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[30]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[29]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[28]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[27]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[26]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[25]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[24]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[23]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[22]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[21]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[20]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[19]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[18]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[17]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[16]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[15]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[14]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[13]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[12]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[11]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[10]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[9]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[8]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[7]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[6]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[5]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[4]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_word_idx[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[31]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[30]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[29]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[28]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[27]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[26]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[25]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[24]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[23]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[22]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[21]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[20]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[19]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[18]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[17]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[16]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[15]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[14]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[13]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[12]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[11]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[10]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[9]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[8]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[7]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[6]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[5]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[4]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_flash_addr[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 5,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[31]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[30]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[29]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[28]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[27]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[26]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[25]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[24]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[23]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[22]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[21]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[20]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[19]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[18]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[17]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[16]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[15]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[14]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[13]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[12]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[11]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[10]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[9]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[8]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[7]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[6]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[5]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[4]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_ddr_addr[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 6,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[31]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[30]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[29]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[28]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[27]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[26]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[25]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[24]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[23]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[22]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[21]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[20]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[19]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[18]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[17]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[16]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[15]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[14]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[13]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[12]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[11]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[10]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[9]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[8]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[7]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[6]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[5]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[4]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_assembled_word[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe7",
+                                "id": 7,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_tx_idx",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_tx_idx[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_tx_idx[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_tx_idx[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_tx_idx[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe8",
+                                "id": 8,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 8,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_idx",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_idx[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_idx[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_idx[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_idx[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe9",
+                                "id": 9,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 9,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b0",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b0[7]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b0[6]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b0[5]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b0[4]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b0[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b0[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b0[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b0[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 10,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b1[7]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b1[6]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b1[5]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b1[4]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b1[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b1[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b1[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe11",
+                                "id": 11,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 11,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b2",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b2[7]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b2[6]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b2[5]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b2[4]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b2[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b2[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b2[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b2[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe12",
+                                "id": 12,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 12,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b3",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b3[7]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b3[6]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b3[5]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b3[4]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b3[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b3[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b3[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_rx_b3[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe13",
+                                "id": 13,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 13,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[31]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[30]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[29]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[28]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[27]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[26]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[25]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[24]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[23]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[22]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[21]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[20]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[19]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[18]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[17]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[16]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[15]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[14]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[13]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[12]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[11]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[10]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[9]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[8]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[7]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[6]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[5]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[4]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_read_data[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe14",
+                                "id": 14,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 14,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[31]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[30]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[29]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[28]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[27]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[26]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[25]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[24]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[23]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[22]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[21]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[20]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[19]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[18]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[17]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[16]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[15]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[14]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[13]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[12]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[11]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[10]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[9]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[8]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[7]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[6]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[5]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[4]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_addr[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe15",
+                                "id": 15,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 15,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[31]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[30]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[29]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[28]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[27]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[26]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[25]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[24]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[23]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[22]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[21]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[20]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[19]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[18]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[17]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[16]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[15]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[14]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[13]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[12]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[11]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[10]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[9]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[8]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[7]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[6]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[5]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[4]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_dbg_pending_wdata[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe16",
+                                "id": 16,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 16,
+                                "portIndex": 16,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_bram_addr",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[16]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[15]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[14]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[13]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[12]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[11]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[10]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[9]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[8]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[7]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[6]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[5]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[4]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[3]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[2]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[1]"
+                                            },
+                                            {
+                                                "name": "uart_bd_i/qspi_bootloader_0_bram_addr[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe17",
+                                "id": 17,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 17,
+                                "nets": [
+                                    {
+                                        "name": "uart_bd_i/qspi_bootloader_0_bram_en",
+                                        "isBus": false
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
